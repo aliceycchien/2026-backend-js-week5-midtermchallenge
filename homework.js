@@ -92,7 +92,7 @@ function getDiscountRate(product) {
 function getAllCategories(products) {
   // 請實作此函式
   const categories = products.map(product => product.category);
-  return [...new Set(categories)]; // 使用 Set 移除重複項
+  return [...new Set(categories)];
 }
 
 // ========================================
