@@ -56,6 +56,7 @@ const orders = [
  * @returns {Object|null} - 回傳產品物件，找不到回傳 null
  */
 function getProductById(products, productId) {
+  // 請實作此函式
   return products.find(product => product.id === productId) || null;
 }
 
